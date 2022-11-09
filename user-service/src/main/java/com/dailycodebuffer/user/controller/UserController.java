@@ -16,6 +16,8 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+//new comments added here
+
     @PostMapping("/")
     public User saveUser(@RequestBody User user) {
         log.info("Inside saveUser of UserController");
